@@ -4,5 +4,6 @@
 
 Использование HTML и CSS.
 
+ссылка на репозиторий
 
-ссылка на репозиторий https://github.com/BenderRodriguezRobot/ono-tebe-nado
+https://github.com/BenderRodriguezRobot/ono-tebe-nado.git
