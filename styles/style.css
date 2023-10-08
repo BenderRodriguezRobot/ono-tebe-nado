@@ -11,7 +11,9 @@
 }
 
 .header__menu {
-  min-height: 23px;
+  height: 100%;
+  display: flex;
+  align-items: center;
   align-self: center;
 }
 
@@ -57,7 +59,6 @@
   flex-direction: column;
   justify-self: end;
   max-width: 240px;
-  min-height: 97px;
   color: #000;
   font-family: Raleway, Arial, sans-serif;
   font-size: 18px;
@@ -82,7 +83,7 @@
 .overlay {
   position: absolute;
   z-index: 1;
-  width: inherit;
+  width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.6);
 }
@@ -191,6 +192,7 @@
   display: flex;
   flex-wrap: wrap;
   column-gap: 25px;
+  row-gap: 25px;
 }
 
 .lots__card-list-item {
@@ -220,8 +222,8 @@
 .card__title {
   position: relative;
   z-index: 2;
-  max-width: 350px;
-  margin: 50px auto 0;
+
+  margin: 50px 40px 0;
   color: #fff;
   font-family: Raleway, Arial, sans-serif;
   font-size: 22px;
@@ -235,8 +237,8 @@
 .card__text {
   position: relative;
   z-index: 3;
-  max-width: 350px;
-  margin: 0 auto 50px;
+
+  margin: 0 40px 50px;
   color: #fff;
   font-family: Raleway, Arial, sans-serif;
   font-size: 20px;
